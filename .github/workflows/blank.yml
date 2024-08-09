@@ -1,0 +1,109 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+
+Chrome will add custom root certificates from the certificates used by your computer’s operating system. To review the certificates on your device:
+Chrome authenticates and secures HTTPS connections with website certificates. These certificates encrypt the link between a site and your browser.
+
+The Chrome Root Program lists the root certificates trusted by Chrome to authenticate HTTPS sites. 
+ Not secure or Dangerous
+We suggest you don't enter any private or personal information on this page. If possible, don't use the site.
+
+Not secure: Proceed with caution. Something is wrong with the privacy of this site’s connection. Someone might be able to find the information you send or get through this site.
+
+Dangerous: Do not use this site. If you get a full-page red warning screen, the site has been flagged as unsafe by Safe Browsing. The site can misuse or abuse any information it receives, and could potentially attempt to install harmful software on your computer. When you use this site, it puts your privacy and security at risk.
+Default (Secure) Default (Secure)
+Information you send or get through the site is private between you and the site.
+
+Even when connected to a site securely, always be careful when you share sensitive or personal information. Check the site name in the address bar to make sure you're on the site you want to visit.
+Check if a site's connection is secure
+Chrome helps you browse more securely by alerting you when it detects a site that may be unsafe to visit. When a site may be unsafe, Chrome changes the icon next to the site address.
+
+In Chrome, open a web page.
+To check a site's security, to the left of the web address, check the security status symbol:
+Default (Secure) Default (Secure)
+View site information Info or Not secure
+Dangerous Not secure or Dangerous
+To find a summary of the site's privacy details and permissions, click the icon.
+Tips:
+
+If you want Chrome to ask you before you use an unsecured connection, turn on Always use secure connections.
+When Always use secure connections is on, if a site doesn't support HTTPS, Chrome displays a “Connection is not secure” warning. Learn more about Always use secure connections.
+What each security symbol means
+These symbols indicate whether Chrome has or hasn’t established a secure and private connection with a site.
+Use a secure connection to look up a site’s IP address
+When you visit a site, Chrome looks up the site’s host server’s IP address. To protect your privacy and security, if Secure DNS lookup is turned on, Chrome encrypts your information during the lookup process.
+
+By default, Secure DNS in Chrome is turned on in automatic mode. If Chrome has issues looking up a site in this mode, it'll look up the site in the unencrypted mode.
+
+You can select a custom provider. When you select a custom provider, Chrome won't default to unencrypted mode. If you have issues, like error messages, you can check your provider setting or turn Secure DNS off. The error messages may say that the server’s IP address couldn't be found.
+
+Important: If your device is managed or parental controls are turned on, you can’t use Chrome’s secure DNS feature.
+Run a Safety Check on an Android device
+You can manage Chrome's safety and security with Safety Check. Safety Check searches for:
+Compromised passwords
+Safe browsing status
+Available Chrome updates
+On your Android device, open Chrome Chrome.
+At the top right, tap More Organize and then Settings.
+Tap Safety Check and then Check now.
+If Chrome finds any issues:
+Tap the item with the issue.
+Follow the on-screen instructions.
+Manage Chrome safety and security
+For a more private and secure browsing experience, you can use Chrome’s safety features, like Safety Check and Safe Browsing.
+Manage warnings about unsafe sites
+You may get a warning if the site you try to visit is unsafe. These sites are often called phishing or malware sites.
+
+Get warnings about unsafe sites
+Phishing and malware detection is turned on by default in Chrome. When you encounter phishing, malware, unwanted software, or social engineering sites, you may get a red warning that says "Dangerous site." If you see this warning, we recommend that you don't visit the site.
+
+To protect you from unsafe websites, Google Safe Browsing maintains a list of websites that might put you at risk for malware, abusive extensions, phishing, malicious and intrusive ads, and social engineering attacks.
+
+To detect and warn you about known and new unsafe sites in real time, you can also turn on Enhanced Safe Browsing. Learn about Safe Browsing protection level in Chrome.
+
+Tip: Download with caution. Some sites may tell you that you have a virus to get you to download harmful software. Be careful not to download any harmful software.
+
+Android 
+On-device encryption for passwords
+Important: Make sure you’ve already set up on-device encryption. Learn how to set up on-device encryption.
+
+Once on-device encryption is set up, you can use your Google password or the screen lock for compatible phones or tablets to unlock your password. This type of encryption means that only you have the key to unlock your passwords.
+Android
+
+
+
+*exe
